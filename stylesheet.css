@@ -1,0 +1,121 @@
+html, body {
+	background-color:lightgrey;
+	color: black;
+	margin: 0;
+    padding: 0;
+	}
+.container {
+	display: flex;
+	height:100%;
+}
+#form {
+	display:flex;
+	/*background-color: orangered;*/
+	justify-content: center;
+	flex-direction:column;
+	flex: 2 1 auto;
+	width:50%;
+}
+#background {
+	display:flex;
+	justify-content: center;
+	width:50%;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#hero {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#heroimg{
+	width:350px;
+}
+#formelements{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	margin: 1em auto;
+}
+
+#bottomsection{
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+}
+#email{
+	width:30em;
+	height:3em;
+	margin-bottom: 1em;
+	padding:1em;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border:none;
+	outline:none;
+}
+#password{
+	width:30em;
+	height:3em;
+	margin-bottom: 1em;
+	padding:1em;
+	border-bottom-left-radius: 1em;
+	border:none;
+	outline:none;
+	
+}
+#havingtrouble{
+	display:flex;
+	margin-left:1em;
+}
+#login{
+	margin: 0 0 0 auto;
+}
+#submitbutton{
+	width:4em;
+	height:2.5em;
+	border-bottom-right-radius:1em;
+	border:none;
+	background-color:orangered;
+	font-weight: 700;
+}
+#email:focus{
+	border:solid;
+	border-color:orangered;
+}
+#password:focus{
+	border:solid;
+	border-color:orangered;
+}
+#install{
+	display:flex;
+	justify-content:center;
+}
+#installbutton{
+	margin:2em auto;
+	width:8em;
+	height:2.5em;
+	border:none;
+	background-color:orangered;
+	font-weight: 700;
+	align-items:center;
+}
+
+
+@media screen and (max-width: 55em){
+
+  #background{
+	  display: none;
+  }
+  #form{
+	  width:100%;
+  }
+}
+
+@media screen and (min-width:55em){
+	#install{
+		display:none;
+	}
+}
