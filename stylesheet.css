@@ -10,7 +10,7 @@ html, body {
 }
 #form {
 	display:flex;
-	/*background-color: orangered;*/
+	/*background-color:orangered;*/
 	justify-content: center;
 	flex-direction:column;
 	flex: 2 1 auto;
@@ -78,29 +78,16 @@ html, body {
 	height:2.5em;
 	border-bottom-right-radius:1em;
 	border:none;
-	background-color:orangered;
+	background-color:blue;
 	font-weight: 700;
 }
 #email:focus{
 	border:solid;
-	border-color:orangered;
+	border-color:blue;
 }
 #password:focus{
 	border:solid;
-	border-color:orangered;
-}
-#install{
-	display:flex;
-	justify-content:center;
-}
-#installbutton{
-	margin:2em auto;
-	width:8em;
-	height:2.5em;
-	border:none;
-	background-color:orangered;
-	font-weight: 700;
-	align-items:center;
+	border-color:blue;
 }
 
 
