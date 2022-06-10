@@ -66,6 +66,19 @@ html, body {
 	outline:none;
 	
 }
+#email_error,
+#password_error{
+margin-top: 5px;
+width: 345px;
+font-size: 18px;
+color: #e54ddd;
+background: rgba(red, green, blue, alpha);
+text-align: center;
+padding: 5px 8px;
+border-radius: 3px;
+border: 1px solid #e54ddd;
+display: none;
+}
 #havingtrouble{
 	display:flex;
 	margin-left:1em;
@@ -90,6 +103,9 @@ html, body {
 	border-color:blue;
 }
 
+#sample {
+	body: #e54ddd;
+}
 
 @media screen and (max-width: 55em){
 

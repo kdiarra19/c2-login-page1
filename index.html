@@ -1,6 +1,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 </head>
 
 <title>Counseal by Authority Wit - Login</title>
@@ -13,9 +14,12 @@
 			<img src="hero.svg" alt="Hero Image" id="heroimg">
 		</div>
 		<div id="formelements">
-			<form>
+			<div id="error"></div>
+			<form action="/" method="GET">
 				<input type="email" id="email" name="email" placeholder= "Email"><br>
+				<div id="email_error">Incorrect email</div>
 				<input type="text" id="password" name="password" placeholder = "Password"><br>
+				<div id="password_error">Incorrect password</div>
 				<div id="bottomsection">
 					<div id="rememberme">
 						<input type="checkbox" id="remember" name="remember" value="RememberMe">
@@ -35,6 +39,6 @@
 	<div id="background">
 	</div>
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>
